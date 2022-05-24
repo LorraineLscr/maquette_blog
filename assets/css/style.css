@@ -1,0 +1,141 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    border-radius: 0 !important;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* HEADER */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+header p {
+    display: flex;
+    justify-content: center;
+}
+
+.badge {
+    background-color: black;
+}
+
+header{
+    margin: 3rem;
+}
+
+/* MAIN */
+
+h2 {
+    font-weight: bolder;
+}
+
+h3{
+font-size: 1.2rem;
+margin-bottom: 1.5rem;
+}
+
+.bordure{
+    padding: 0!important;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    display: block;
+}
+
+.number0, .number2{
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 0 4px;
+}
+
+.number2 {
+    border-radius: 50% !important;
+    padding: 0 5px;
+}
+
+h4{
+    padding: 1rem;
+    background-color: rgba(128, 128, 128, 0.187);
+}
+
+ul {
+    margin-top: 1.5rem;
+}
+
+.imgpopular{
+    display: inline-block;
+    width: 20%;
+    margin-left: 1rem;
+}
+
+.imgpopular img{
+    display: block;
+    width: 100%;
+}
+
+.popular{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.popular p{
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.alltags {
+    border: rgba(128, 128, 128, 0.257) 1px solid;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.tags {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.147);
+    margin: 0.3rem;
+}
+
+.tags:hover {
+    background-color: black;
+    color: white;
+}
+
+/*/ FOOTER */
+
+footer {
+    background-color: grey;
+    padding: 3rem;
+}
+
+footer .btn {
+    background-color: rgba(4, 2, 2, 0.286);
+    color: white;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+footer p {
+    color: white;
+    margin-top: 1.5rem;
+}
+
+@media screen and (min-width:576px) {
+ 
+}
